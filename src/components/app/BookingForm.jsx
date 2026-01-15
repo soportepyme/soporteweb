@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { collection, addDoc } from 'firebase/firestore';
 import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
-import { db, storage, auth } from '../firebase';
+import { db, storage, auth } from '../../firebase';
 import imageCompression from 'browser-image-compression';
 
 function BookingForm() {
